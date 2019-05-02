@@ -1,0 +1,74 @@
+.icon-butter {
+    background: url('../img/icons/sprite-icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -64px;
+}
+
+.icon-checked {
+    background: url('../img/icons/sprite-icons.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-chocolate-bar {
+    background: url('../img/icons/sprite-icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -320px;
+}
+
+.icon-clock {
+    width:32px;
+    height:32px;
+    background: url('../img/icons/sprite-icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -32px;
+}
+
+.icon-flour {
+    background: url('../img/icons/sprite-icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -128px;
+} 
+
+.icon-egg {
+    background: url('../img/icons/sprite-icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -256px;
+}
+
+
+.icon-honey {
+    background: url('../img/icons/sprite-icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -288px;
+}
+
+.icon-pot {
+    background: url('../img/icons/sprite-icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.icon-salt {
+    background: url('../img/icons/sprite-icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -192px;
+}
+
+.icon-sugar {
+    background: url('../img/icons/sprite-icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -96px;
+}
+
+.icon-vanilla {
+    background: url('../img/icons/sprite-icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -160px;
+}
+
+.icon-yeast {
+    background: url('../img/icons/sprite-icons.png');
+    background-repeat: no-repeat;
+    background-position: 0 -224px;
+}

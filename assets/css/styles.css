@@ -1,0 +1,165 @@
+@import '../../vendor/css/bootwatch-cosmo.css';
+@import './icons.css';
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body { height: 100%; }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h2 { color: #e59fa4;}
+
+.radius { border-radius: 10px !important;}
+
+.article {
+    padding-top: 100px;
+    background-color: white;
+}
+
+/* Header */
+.bg-header { background-color: #a9dae5; }
+
+a.nav-link { font-size: 18px; }
+
+.logoSmall {
+    height: 40px;
+    width: auto;
+}
+
+/* Section home */
+#home { height: 100vh; }
+
+.home-bg {
+    background-image: url('../img/emily-wilson-1458442-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.home-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home-text a,.home-text a:focus,.home-text a:hover,.home-text a:active, #contact button {
+    background-color: #e59fa4 !important;
+    border-color: #e59fa4 !important;
+}
+
+/* Section recipe */
+#recipe ul { padding-left: 0px; }
+
+ul li { list-style-type: none; }
+
+.recipe-time { color: #894a80; }
+
+.recipe-time span, .icon-ingredients, .icon-heart {
+    float: left;
+    margin-right: 10px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;}
+
+.recipe-time:first-child { float: left; }
+
+.icon {
+    display: inline;
+    display: inline-block
+}
+
+.btn-ingredients.checked span {
+    width: 32px;
+    height: 32px;
+    background-image: url('../img/icons/sprite-icons.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -352px;
+}
+
+#img-recipe {
+    display: block;
+    height: 600px;
+    width: auto;
+    background-image: url('../img/emily-wilson-1458436-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+#recipe p.h5 { font-weight: 400; }
+
+/* Section battle */
+#battle { background-color: #a9dae5;}
+
+#battle h2, #battle h3 { color: #894a80;}
+
+.pt-4.border { 
+    background-color: #ffffff;
+    border-color: #a9dae5 !important;
+}
+
+.card-body { min-height: 320px; }
+
+.img-sister { 
+    width: 180px; 
+    height: auto;
+    color: #894a80;
+}
+
+.card-body img { width: 100px; height: 100px;}
+
+.btn-heart,
+.btn-heart:focus,
+.btn-heart:hover {
+    font-size: 25px;
+    text-decoration: none !important;
+    color: #7d7f80;
+}
+
+.btn-heart svg {
+    width: 25px;
+    height: 25px;
+    fill: #7d7f80;
+}
+
+@media screen and (max-width: 992px) {
+    
+    #home { height: auto ; }
+
+    .home-bg { position: inherit; }
+    
+    .home-text {
+        position: inherit;
+        top: inherit;
+        left: inherit;
+        transform: none;
+        padding-left: 0.8rem !important;
+        padding-right: 0.8rem !important;
+    }
+
+    .home-text p { text-align: center !important; }
+
+    .display-2 { font-size:3rem; }
+    
+}
+@media screen and (max-width : 768px) {
+    .article { padding-top: 50px; }
+
+    .home-text a { display: block; }
+
+    .pt-4.border { margin-top:20px !important; }
+    
+    .card-body { min-height: 100px; }
+    
+    .card { text-align: center; }
+
+}
